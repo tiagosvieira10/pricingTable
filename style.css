@@ -94,6 +94,12 @@ button.assinar{
     width: 32.0rem;
     height: 5.6rem;
 }
+button.assinar:hover{
+    cursor: pointer;
+    color: #FFFFFF;
+    background-color: #1E293B; 
+    transform: scale(1.05);
+}
 .beneficios{
     display: flex;
     flex-direction: column;
@@ -157,6 +163,11 @@ button.assinar2{
     width: 32.0rem;
     height: 5.6rem;
 }
+button.assinar2:hover{
+    cursor: pointer;
+    background-color: #7C3AED; 
+    transform: scale(1.05);
+}
 .beneficiosBlack{
     border-top:.1rem solid #334155;
     display: flex;
@@ -194,3 +205,4 @@ button.assinar2{
     margin-top: 3.2rem;
     gap: .8rem;
 }
+
