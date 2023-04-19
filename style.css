@@ -25,6 +25,10 @@ section{
     width: 38.4rem;
     height: 45.4rem;
 }
+.caixa1:hover{
+    transform: scale(1.1);
+    transition-duration: 0.3s;
+}
 
 .caixa2{
     background-color: #0F172A;
@@ -34,6 +38,10 @@ section{
     width: 38.4rem;
     height: 45.4rem;
 }
+.caixa2:hover{
+    transform: scale(1.1);
+    transition-duration: 0.3s;
+}
 .caixa3{
     background: #FFFFFF;
     border: .1rem solid #E2E8F0;
@@ -42,6 +50,10 @@ section{
 
     width: 38.4rem;
     height: 45.4rem;
+}
+.caixa3:hover{
+    transform: scale(1.1);
+    transition-duration: 0.3s;
 }
 
 p.indicacao{
@@ -133,8 +145,7 @@ button.assinar:hover{
 img.maisVantagem{
     display: flex;
     margin: -1.5rem;
-    position: absolute;
-    
+    position: absolute; 
 }
 h3.vintenove{
     color: #F8FAFC;
@@ -204,5 +215,9 @@ button.assinar2:hover{
     display: flex;
     margin-top: 3.2rem;
     gap: .8rem;
+}
+
+a:hover{
+ transform: scale(1.09);
 }
 
