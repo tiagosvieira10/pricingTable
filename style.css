@@ -8,6 +8,10 @@
     height: 100vh;
     font-family: 'Titillium Web', sans-serif;
 }
+main{
+    height: 100vh;
+    background: #996DFF
+}
 section{
     padding-top: 22.3rem;
     display: flex;
@@ -218,6 +222,6 @@ button.assinar2:hover{
 }
 
 a:hover{
- transform: scale(1.09);
+ transform: scale(1.09); 
 }
 
